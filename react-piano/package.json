@@ -1,0 +1,25 @@
+{
+  "name": "react-piano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo2": "babel-node demo/demo2.js",
+    "demo1": "babel-node demo/demo1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fbjs": "^0.8.16",
+    "react": "^16.4.0",
+    "react-reconciler": "^0.11.0",
+    "sox-audio": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
